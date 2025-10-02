@@ -1,4 +1,4 @@
-# Android 도서 API 과제
+# Android 도서 API
 
 이 프로젝트는 [카카오 도서 API를 활용해 검색, 도서 상세, 즐겨찾기]를 구현한 안드로이드 애플리케이션입니다.  
 Jetpack Compose와 MVI 아키텍처를 기반으로 제작되었습니다.
@@ -64,6 +64,6 @@ book/
     - 에러 및 성공 state를 명확히 처리
 2. 페이징 처리
     - 라이브러리를 사용하지 않고, LaunchedEffect로 스크롤 위치에 따라 api를 호출하는 방식으로 개발
-3. 디자인 개선
+3. 디자인
    - Shimmer 효과를 통해 데이터 Loading 중 어색한 부분을 개선
    - home에서 backHandler 이벤트를 제어
